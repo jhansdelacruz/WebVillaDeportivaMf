@@ -1,0 +1,401 @@
+/* Article modefull section */
+.block-page-title-block {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+.modefull {
+  background-image: url(../img/home/mfpe-maps.png);
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 0rem;
+  margin-top: 19%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .modefull {
+    margin-top: 6%;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .modefull {
+    margin-top: 5.7%;
+  }
+}
+
+.modefull > div {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 4.375%;
+}
+
+@media only screen and (min-width: 76.25em) {
+  .modefull > div {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: 1220px;
+  }
+}
+@media only screen and (min-width: 64em) {
+  .modefull > div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5.125rem;
+    padding-bottom: 5.125rem;
+    max-width: 1244px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .modefull > div {
+    padding-left: 0.8125rem;
+    padding-right: 0.8125rem;
+    padding-top: 3.625rem;
+    padding-bottom: 3.625rem;
+  }
+}
+
+.contet {
+  position: relative;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+@media only screen and (min-width: 48em) {
+  .contet {
+    display: flex;
+    background: #f8f9fa url(../img/home/barA.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 11px;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .host-picture {
+    width: 50%;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .field-host-picture {
+    height: 100%;
+    max-height: 380px;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .name-field-host-picture {
+    height: 100%;
+    max-height: 380px;
+  }
+}
+.name-field-host-picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media only screen and (min-width: 48em) {
+  .name-field-host-picture img {
+    border-top-right-radius: 0% 0%;
+    border-bottom-right-radius: 50% 100%;
+    height: 100%;
+    max-height: 380px;
+  }
+}
+.host-content-wrap:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 11px;
+  background: url(../img/home/bar.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.host-content-wrap {
+  padding: 3.125rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+@media only screen and (min-width: 48em) {
+  .host-content-wrap {
+    flex-grow: 1;
+  }
+}
+.host-content-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+marquee {
+  background-color: #eeeeee;
+  border: 1px;
+  border-radius: 28px;
+}
+
+.center-monsefu {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.center-monsefu {
+  background-color: #bebebe;
+  border-radius: 18px;
+  box-shadow: 0px 2px 10px #bebebe;
+}
+.center-monsefu a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.975em;
+  font-weight: 400;
+  line-height: 2.375em;
+  letter-spacing: 0.3rem;
+  padding: 0.3125rem 0.625rem;
+  display: block;
+}
+.center-monsefu:hover * {
+  background-color: #f8f9fa;
+  color: #00447a;
+  border-radius: 18px;
+}
+.name-title {
+  display: block;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.375em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.host-adress:before {
+  font-size: 1.4em;
+  content: "📌";
+  color: #666666;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: -3px;
+}
+.host-adress {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #999999;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  display: inline-flex;
+}
+.field-label {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 0px;
+  padding: 0px;
+  height: 0px;
+}
+
+.spectators-number:before {
+  font-size: 1.4em;
+  content: "🏟️";
+  color: #666666;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: -5px;
+}
+.spectators-number {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #999999;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  display: inline-flex;
+}
+.opening_time:before {
+  font-size: 1.4em;
+  content: "📬";
+  color: #666666;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: -3px;
+}
+.opening_time {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #999999;
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  display: inline-flex;
+  margin-bottom: 1.25rem;
+}
+.optime {
+  display: inline-flex;
+}
+.field-labell {
+  font-weight: normal;
+}
+.field-labell:after {
+  content: ":";
+  margin-right: 10px;
+}
+.btnmode {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.host-tickets {
+  margin: 0;
+  display: flexbox;
+  width: 40%;
+}
+.host-tickets a:before {
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.host-tickets a.link-tickets:before {
+  content: "🖼️";
+  font-size: 1.5625em;
+  margin-right: 13px;
+  text-shadow: 0px 3px 0px #2f6627;
+  vertical-align: sub;
+}
+
+.host-tickets a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 1px 0px #2f6627;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+}
+.host-tickets a.link-tickets {
+  background-color: none;
+  color: #73de1a;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  padding: 6% 8%;
+  display: flex;
+  cursor: pointer;
+  margin: auto;
+  transition: 0.1s;
+  align-items: center;
+}
+.host-tickets a.link-tickets:hover {
+  background-color: #73de1a;
+  color: #ffffff;
+}
+.host-tickets a.link-tickets:active {
+  position: relative;
+  top: 1px;
+}
+.host-map {
+  margin: 0;
+  display: flexbox;
+  width: 40%;
+}
+.host-map a:before {
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.host-map a.link-en-mapa:before {
+  content: "🗺️";
+  font-size: 1.5625em;
+  margin-right: 13px;
+  vertical-align: sub;
+  text-shadow: 0px 4px 0px #2f6627;
+}
+.host-map a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 1px 0px #2f6627;
+  justify-content: center;
+  align-items: center;
+  max-width: 280px;
+}
+.host-map a.link-en-mapa {
+  line-height: 1.125em;
+  background-color: none;
+  color: #0065ab;
+  border-radius: 28px;
+  padding: 6% 8%;
+  border: 1px solid #00447a;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  transition: 0.1s;
+}
+.host-map a.link-en-mapa:hover {
+  background-color: #0065ab;
+  color: #ffffff;
+}
+.host-map a.link-en-mapa:active {
+  position: relative;
+  top: 1px;
+}
+/* End Article modefull section */
+
+/* Article artContPrim section */
+.artPrim {
+  width: 100%;
+  background: #ffffff;
+}
+
+.divPrim {
+  width: 90%;
+  margin: auto;
+  font-size: 4rem;
+}

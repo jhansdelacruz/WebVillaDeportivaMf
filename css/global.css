@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400;500;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@font-face {
+  font-family: rndhndk;
+  src: url(../font/rndhndk.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "IBM+Plex+Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1;
+}
+a {
+  text-decoration: none;
+}
+
+section,
+div,
+article {
+  display: block;
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.icon70 {
+  height: 70px;
+  width: 70px;
+}
