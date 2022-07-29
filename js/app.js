@@ -1,3 +1,4 @@
+const body = document.querySelector("body");
 const hamburger = document.querySelector(
   ".header .nav-bar .nav-list .hamburger"
 );
@@ -10,6 +11,7 @@ const header = document.querySelector(".header.hcontainer");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   mobile_menu.classList.toggle("active");
+  body.classList.toggle("active");
 });
 
 document.addEventListener("scroll", () => {
@@ -27,6 +29,7 @@ menu_item.forEach((item) => {
   item.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     mobile_menu.classList.toggle("active");
+    body.classList.toggle("active");
   });
 });
 

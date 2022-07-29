@@ -160,6 +160,9 @@ header .hamburger.active .bar::before {
 header .hamburger.active .bar::after {
   top: 0;
 }
+html body.active {
+  overflow-y: hidden;
+}
 /* End Header section */
 
 /* Media Query For Desktop */

@@ -392,10 +392,88 @@ marquee {
 .artPrim {
   width: 100%;
   background: #ffffff;
+  box-shadow: 0px -2px 15px rgb(190 190 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+  padding: 1%;
+}
+.sctPrim {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  padding: 10px 10px;
+}
+div.divRight {
+  width: 680px;
+  float: left;
+}
+div.divFloatRight {
+  padding: 20px;
+  width: 340px;
+  float: right;
+  background-color: #f6f6f6;
 }
 
-.divPrim {
-  width: 90%;
+div.divRight div:first-child {
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  -webkit-box-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+div.divRight div:last-child {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+div.divRight div h2.titleDescription {
+  color: #404040;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+div.divRight div p {
+  overflow: hidden;
+  padding: 0 2%;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+  color: #222;
+  margin-bottom: 18px;
+}
+div.divFloatRight div:first-child {
+  color: #404040;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+div.divFloatRight div ul {
+  list-style: none;
+}
+div.divFloatRight div ul li span {
+  margin-right: 8%;
+  width: 24px;
+  height: 24px;
+}
+
+div.divFloatRight div ul li {
+  width: 80%;
   margin: auto;
-  font-size: 4rem;
+  position: relative;
+  font-size: 15px;
+  min-height: 40px;
+  line-height: 20px;
+  color: #4d4d4d;
+  display: flex;
+  align-items: center;
+}
+div.divFloatRight div ul li a {
+  color: #73de1a;
 }

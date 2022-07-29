@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/global.css" />
   <link rel="stylesheet" href="css/header.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="icon" href="img/public/logo.png" />
   <link rel="apple-touch-ico" href="img/public/logo.png" />
   <link rel="theme-color" content="#2f6627" />
@@ -89,12 +90,69 @@
         </div>
     </article>
     <article class="artPrim">
-      <section class="divPrim">
-        <h2>hola</h2>
+      <section class="sctPrim">
+        <div class="divRight">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <h2 class="titleDescription">Drescription</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+            </p>
+          </div>
+        </div>
+        <div class="divFloatRight">
+          <div>
+            <h2>Características principales</h2>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <span class="material-symbols-outlined">
+                  wifi
+                </span>
+                Wi-Fi
+              </li>
+              <li>
+                <span class="material-symbols-outlined">
+                  sports_soccer
+                </span>
+                Actividades
+              </li>
+              <li>
+                <span class="material-symbols-outlined">
+                  food_bank
+                </span>
+                Comida/Bebida
+              </li>
+              <li>
+                <span class="material-symbols-outlined">
+                  business_center
+                </span>
+                Salas de reuniones
+              </li>
+              <li>
+                <span class="material-symbols-outlined">
+                  pets
+                </span>
+                Se permiten mascotas
+              </li>
+              <li>
+                <span></span>
+                <a href="#">+ Más</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
     </article>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   </main>
   <footer></footer>
   <script src="js/app.js"></script>
