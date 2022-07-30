@@ -389,10 +389,14 @@ marquee {
 /* End Article modefull section */
 
 /* Article artContPrim section */
-.artPrim {
+.sctGlob {
   width: 100%;
   background: #ffffff;
   box-shadow: 0px -2px 15px rgb(190 190 190);
+}
+.artPrim {
+  width: 100%;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,37 +413,37 @@ marquee {
   max-width: 1100px;
   padding: 10px 10px;
 }
-div.divRight {
-  width: 680px;
+
+div.divLeft {
   float: left;
 }
 div.divFloatRight {
   padding: 20px;
-  width: 340px;
+
   float: right;
   background-color: #f6f6f6;
 }
 
-div.divRight div:first-child {
+div.divLeft div:first-child {
   align-items: center;
   border-bottom: 1px solid #e0e0e0;
   -webkit-box-align: center;
   padding-bottom: 15px;
   padding-top: 10px;
 }
-div.divRight div:last-child {
+div.divLeft div:last-child {
   padding-top: 25px;
   padding-bottom: 10px;
 }
 
-div.divRight div h2.titleDescription {
+h2.titleDescription {
   color: #404040;
   line-height: 22px;
   font-size: 20px;
   font-weight: 600;
   padding-bottom: 20px;
 }
-div.divRight div p {
+section.sctGlob p {
   overflow: hidden;
   padding: 0 2%;
   font-size: 15px;
@@ -477,3 +481,45 @@ div.divFloatRight div ul li {
 div.divFloatRight div ul li a {
   color: #73de1a;
 }
+
+/* Gallery section */
+.imgGallery {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+.imgGallery img {
+  width: 100%;
+  cursor: pointer;
+  transition: 1s;
+  box-shadow: 0px 6px 10px #aaa9a9;
+}
+.imgGallery img:hover {
+  transform: scale(1.2);
+}
+.full-Img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+.full-Img img {
+  width: 90%;
+  max-width: 640px;
+}
+.full-Img span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+/* End Gallery section */

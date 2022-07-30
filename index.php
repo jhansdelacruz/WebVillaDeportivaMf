@@ -28,8 +28,6 @@
 
   <main role="main">
     <article role="article" class="modefull">
-
-
       <div class="container">
         <div class="contet">
           <!--imagen de la sede-->
@@ -75,7 +73,7 @@
             </div>
             <div class="btnmode">
               <div class="host-tickets">
-                <a class="link-tickets" href="https://tickets.lima2019.pe/showEventCriteria.html?changeLanguageTo=es" target="_blank">
+                <a class="link-tickets" href="#gallery">
                   <span> Ver Galeria
                   </span>
                 </a>
@@ -89,73 +87,103 @@
           </div>
         </div>
     </article>
-    <article class="artPrim">
-      <section class="sctPrim">
-        <div class="divRight">
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+    <section class="sctGlob">
+      <article class="artPrim">
+        <section class="sctPrim">
+          <div class="divLeft Wh680px">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <div>
+              <h2 class="titleDescription">Drescription</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+              </p>
+            </div>
+          </div>
+          <div class="divFloatRight Wh340px facilit">
+            <div>
+              <h2>Características principales</h2>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <span class="material-symbols-outlined">
+                    wifi
+                  </span>
+                  Wi-Fi
+                </li>
+                <li>
+                  <span class="material-symbols-outlined">
+                    sports_soccer
+                  </span>
+                  Actividades
+                </li>
+                <li>
+                  <span class="material-symbols-outlined">
+                    food_bank
+                  </span>
+                  Comida/Bebida
+                </li>
+                <li>
+                  <span class="material-symbols-outlined">
+                    business_center
+                  </span>
+                  Salas de reuniones
+                </li>
+                <li>
+                  <span class="material-symbols-outlined">
+                    pets
+                  </span>
+                  Se permiten mascotas
+                </li>
+                <li>
+                  <span></span>
+                  <a href="#">+ Más</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article id="gallery" class="artPrim">
+        <section class="sctPrim">
+          <div class="divLeft Wh1020px">
+            <div class="full-Img" id="fullImgBox">
+              <img src="" id="fullImg" alt="Gallery Image">
+              <span onclick="closeImg()">❎</span>
+            </div>
+            <h2 class="titleDescription">Galería</h2>
+            <div class="imgGallery">
+              <img src="./img/home/gallery/img1b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img3b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img2b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img5b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img6b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src=" ./img/home/gallery/img4d.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img3d.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img1d.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+              <img src="./img/home/gallery/img2d.png" onclick="openFulImg(this.src)" alt="Gallery Image">
+            </div>
           </div>
           <div>
-            <h2 class="titleDescription">Drescription</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
-            </p>
-          </div>
-        </div>
-        <div class="divFloatRight">
-          <div>
-            <h2>Características principales</h2>
-          </div>
-          <div>
-            <ul>
-              <li>
-                <span class="material-symbols-outlined">
-                  wifi
-                </span>
-                Wi-Fi
-              </li>
-              <li>
-                <span class="material-symbols-outlined">
-                  sports_soccer
-                </span>
-                Actividades
-              </li>
-              <li>
-                <span class="material-symbols-outlined">
-                  food_bank
-                </span>
-                Comida/Bebida
-              </li>
-              <li>
-                <span class="material-symbols-outlined">
-                  business_center
-                </span>
-                Salas de reuniones
-              </li>
-              <li>
-                <span class="material-symbols-outlined">
-                  pets
-                </span>
-                Se permiten mascotas
-              </li>
-              <li>
-                <span></span>
-                <a href="#">+ Más</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </article>
 
+          </div>
+        </section>
+      </article>
+      <article class="artPrim">
+
+      </article>
+    </section>
   </main>
   <footer></footer>
   <script src="js/app.js"></script>
+  <script src="js/gallery.js"></script>
 </body>
 
 </html>
