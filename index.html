@@ -22,9 +22,33 @@
 </head>
 
 <body>
-  <?php
-  require('./layout/header.php');
-  ?>
+  <!-- Header -->
+  <header id="headerPosition">
+    <div class="header hcontainer">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="./" data-href="index.html">
+            <img src="img/public/logo.png" alt="Logo" class="icon70" title="Villa Deportiva - Monsefú" />
+            <p>
+              <span class="villa_deportiva">VILLA DEPORTIVA</span><span class="monsefu"> Monsefú</span>
+            </p>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="./" data-after="Home">INICIO</a></li>
+            <li><a href="#" data-after="About">NOSOTROS</a></li>
+            <li><a href="#" data-after="Service">SERVICIOS</a></li>
+            <li><a href="#" data-after="Contact">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
 
   <main role="main">
     <article role="article" class="modefull">
@@ -176,7 +200,41 @@
           </div>
         </section>
       </article>
-      <article class="artPrim">
+      <article id="eventos" class="artPrim">
+        <section class="sctPrim">
+          <div class=" Wh1020px">
+            <h2 class="titleDescription">Eventos</h2>
+            <div class="imgEvento">
+              <div>
+                <div class="divIvent">
+                  <img src="./img/home/events/img1b.png" alt="">
+                  <div class="capa">
+                    <h2>Evento</h2>
+                    <a href="#">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="divIvento">
+                  <img src="./img/home/events/img2b.png" alt="">
+                  <div class="capa">
+                    <h2>Evento</h2>
+                    <a href="#">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="divIvent">
+                  <img class="imgEvent" src="./img/home/events/img3b.png" alt="">
+                  <div class="capa">
+                    <h2>Evento</h2>
+                    <a href="#">Ver detalles</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
       </article>
     </section>
