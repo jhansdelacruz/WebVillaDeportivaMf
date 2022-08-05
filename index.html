@@ -9,7 +9,7 @@
   <meta name="MobileOptimized" content="width" />
   <meta name="HandheldFriendly" content="true" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+git 
   <title>Villa Deportiva || Monsefú</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/global.css" />
@@ -40,9 +40,9 @@
           </div>
           <ul>
             <li><a href="./" data-after="Home">INICIO</a></li>
-            <li><a href="#" data-after="About">NOSOTROS</a></li>
-            <li><a href="#" data-after="Service">SERVICIOS</a></li>
-            <li><a href="#" data-after="Contact">CONTACTO</a></li>
+            <li><a href="#nosotros" data-after="About">NOSOTROS</a></li>
+            <li><a href="#caracteristicas" data-after="Service">SERVICIOS</a></li>
+            <li><a href="#contacto" data-after="Contact">CONTACTO</a></li>
           </ul>
         </div>
       </div>
@@ -111,16 +111,18 @@
           </div>
         </div>
     </article>
-    <section class="sctGlob">
+
+
+    <section id="nosotros" class="sctGlob">
       <article class="artPrim">
         <section class="sctPrim">
           <div class="divLeft Wh680px">
-            <div>
+            <div class="bordBooton">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
-            <div>
+            <div class="divDos">
               <h2 class="titleDescription">Drescription</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
@@ -168,21 +170,64 @@
                 </li>
                 <li>
                   <span></span>
-                  <a href="#">+ Más</a>
+                  <a href="#caracteristicas">+ Más</a>
                 </li>
               </ul>
             </div>
           </div>
         </section>
       </article>
-      <article id="gallery" class="artPrim">
+
+      <article class="txtCentro">
+        <section class="artPrim">
+          <section class="sctPrim">
+            <div class="divLeft Wh680px">
+              <div class="divNostrs">
+                <div>
+                  <h2 class="titleDescription">Mision</h2>
+                </div>
+                <div class="divDos">
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+                </p>
+              </div>
+                
+                
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class="artPrim">
+          <section class="sctPrim">
+            <div class="divLeft Wh680px">
+              <div class="divNostrs">
+                <div>
+                  <h2 class="titleDescription">Vision</h2>
+                </div>
+                <div class="divDos">
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum. <br><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.Exercitationem ex consequatur sit delectus quia, maxime beatae eius labore quidem repellat perspiciatis blanditiis fugit possimus aspernatur saepe, eos voluptates obcaecati. Harum.
+                </p>
+              </div>
+                
+                
+              </div>
+            </div>
+          </section>
+        </section>
+      </article>
+
+      <article style="background-color: #f8f8fa;" id="gallery" class="artPrim">
         <section class="sctPrim">
           <div class="divLeft Wh1020px">
             <div class="full-Img" id="fullImgBox">
               <img src="" id="fullImg" alt="Gallery Image">
               <span onclick="closeImg()">❎</span>
             </div>
-            <h2 class="titleDescription">Galería</h2>
+            <br>
+            <h2 style="text-align: center;" class="titleDescription">Galería</h2>
+            <br><br>
             <div class="imgGallery">
               <img src="./img/home/gallery/img1b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
               <img src="./img/home/gallery/img3b.png" onclick="openFulImg(this.src)" alt="Gallery Image">
@@ -200,10 +245,13 @@
           </div>
         </section>
       </article>
-      <article id="eventos" class="artPrim">
+
+      <article style="background-color: #f8f8fa;" id="eventos" class="artPrim">
         <section class="sctPrim">
           <div class=" Wh1020px">
-            <h2 class="titleDescription">Eventos</h2>
+            <br><br><br>
+            <h2 style="text-align: center;" class="titleDescription">Eventos</h2>
+            <br><br>
             <div class="imgEvento">
               <div>
                 <div class="divIvent">
@@ -225,7 +273,7 @@
               </div>
               <div>
                 <div class="divIvent">
-                  <img class="imgEvent" src="./img/home/events/img3b.png" alt="">
+                  <img src="./img/home/events/img3b.png" alt="">
                   <div class="capa">
                     <h2>Evento</h2>
                     <a href="#">Ver detalles</a>
@@ -233,11 +281,237 @@
                 </div>
               </div>
             </div>
+            <br><br><br><br>
           </div>
         </section>
-
       </article>
+      
+
+      <article id="caracteristicas" class="artPrim">
+        <section class="sctPrim">
+          <div class="divLeft Wh1020px">
+            <div class="grup1">
+              <div class="bordBooton">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+              <div class="divDos">
+                <h2 class="titleDescription">Nuestros Servicios</h2>
+                <div class="caracte">
+                  <div class="divFloatRig Wh340px">
+                    <div>
+                      <h2>Caracteristicas Principales</h2>
+                    </div>
+                    <div>
+                      <ul>
+                        <li>
+                          <span class="material-symbols-outlined">
+                            wifi
+                          </span>
+                          Wi-Fi
+                        </li>
+                        <li>
+                          <span class="material-symbols-outlined">
+                            sports_soccer
+                          </span>
+                          Actividades
+                        </li>
+                        <li>
+                          <span class="material-symbols-outlined">
+                            food_bank
+                          </span>
+                          Comida/Bebida
+                        </li>
+                        <li>
+                          <span class="material-symbols-outlined">
+                            business_center
+                          </span>
+                          Salas de reuniones
+                        </li>
+                        <li>
+                          <span class="material-symbols-outlined">
+                            pets
+                          </span>
+                          Se permiten mascotas
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="divCarat">
+                  <div>
+                    <div class="divIvento">
+                        <h3>&lt;&gt; Lorem ipsum dolor consectetur perspiciatis</h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <p>> Lorem ips</p>
+                        <br>
+                        <h3>&lt;&gt; Lorem ipsum dolor</h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <br>
+                        <h3>&lt;&gt; Lorem ipsum doloradi pisicing</h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <p>> Lorem ips</p>
+                        <br>
+                        <h3>&lt;&gt; Lorem ipsum </h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <p>> Lorem ips</p>                        
+                    </div>
+                  </div>
+                  <div>
+                    <div class="divIvento">
+                       <h3>&lt;&gt; Lorem ipsum doloradi pisicing</h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <p>> Lorem ips</p>
+                        <br>
+                        <h3>&lt;&gt; Lorem ipsum </h3>
+                        <p></p>
+                        <p>> Lorem </p>
+                        <p>> Lorem ipsum</p>
+                        <p>> Lorem ips</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <article id="preguntas" class="artPrim">
+        <section class="sctPrim">
+          <div class="divLeft Wh1020px">
+            <div class="bordBooton">
+            </div>
+            <div class="divDos">
+              <h2 class="titleDescription">Preguntas Frecuentes</h2>
+              <p>
+              </p>
+              <div class="divCarat">
+                  <div>
+                    <div class="divIvento">
+                        <h3>¿ Lorem ipsum dolor consectetur perspiciatis Lorem ipsum dolor?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum optio a in ratione iusto enim eveniet quam doloribus aspernatur deserunt, ea excepturi deleniti. </p>
+                        <br>
+                        <h3>¿ Lorem ipsum dolor?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus .</p>
+                        <br>
+                        <h3>¿Lorem ipsum doloradi pisicing?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum.</p>
+                        <br>
+                        <h3>¿Lorem ipsum dolor sit?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum optio a in ratione iusto enim eveniet quam doloribus aspernatur deserunt.</p>
+                        <br>
+                        <h3>¿ Lorem ipsum dolor consectetur perspiciatis Lorem ipsum dolor consectetur perspiciatis?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum optio a in ratione iusto enim eveniet quam doloribus aspernatur deserunt, ea excepturi deleniti. </p>
+                        <br>
+                        <h3>¿ Lorem ipsum dolor amet consectetur?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus .</p>
+                        <br>
+                        <h3>¿Lorem ipsum doloradi?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum.</p>
+                        <br>
+                        <h3>¿Lorem ipsum?</h3>
+                        <p></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore temporibus possimus laborum magni totam cum optio a in ratione iusto enim eveniet quam doloribus aspernatur deserunt.</p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+            </div>
+          </div>
+          
+        </section>
+      </article>
+
+      <div  class="conteimgmf">
+      </div>
+
+      <article id="contacto" class="artPrim">
+        <section class="sctPrim">
+          <div class="divLeft Wh1020px">
+            <div class="bordBooton">
+              <p>Para consultas y Reservas</p>
+            </div>
+            <div class="divDos">
+              <h2 class="titleDescription">Contactanos</h2>
+              <p>
+              </p>
+              <div class="divCarat">
+                  <div>
+                    <div class="divIvento">
+                      <div class="formulari">
+                        <form action="">
+                          <label for="usuario">Nombre:</label><br>
+                          <input required placeholder="Escribe tu nombre" type="text" id="usuario" name="usuario"><br><br>
+                          <label for="email">E-mail:</label><br>
+                          <input required placeholder="Escribe tu Correo"  name="email" id="email" type="email">
+                          <br><br>
+                          <label for="asunto">Motivo</label><br>
+                          <select required id="asunto">
+                            <option value="sugerencia">Sugerencias</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="reclamo" selected>Reservas</option>
+                            <option value="reserva">Reclamos</option>
+                          </select>
+                          <datalist>
+                            <option value="consulta">Consulta</option>
+                            <option value="reclamo" selected>Reserva</option>
+                            <option value="reserva">Reclamos</option>
+                          </datalist>
+                          <br><br>
+                          <label for="mensaje">Mensaje</label><br>
+                          <textarea required id="mensaje" placeholder="Escribe un texto" name="mensaje"></textarea>
+                          <br>
+                          <div class="grupBtn">
+                            <button class="butRset" type="reset">Reset</button>
+                          <button class="butEnvi" type="submit">Enviar</button>
+                          </div>
+                          
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="divIvento">
+                      <img src="img/contac/formulario.svg" alt="">
+                        
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+        </section>
+      </article>
+      
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </section>
+
+
   </main>
   <footer></footer>
   <script src="js/app.js"></script>

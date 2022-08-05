@@ -388,7 +388,7 @@ marquee {
 }
 /* End Article modefull section */
 
-/* Article artContPrim section */
+/* Article Descripcion section */
 .sctGlob {
   width: 100%;
   background: #ffffff;
@@ -417,21 +417,27 @@ marquee {
 div.divLeft {
   float: left;
 }
+@media only screen and (max-width: 1061px) {
+  div.divFloatRight {
+    display: none;
+  }
+}
 div.divFloatRight {
   padding: 20px;
   float: right;
   background-color: #f6f6f6;
   border-radius: 5px;
+  box-shadow: 0px 1px 10px #7777772e;
 }
 
-div.divLeft div:first-child {
+div.bordBooton {
   align-items: center;
   border-bottom: 1px solid #e0e0e0;
   -webkit-box-align: center;
   padding-bottom: 15px;
   padding-top: 10px;
 }
-div.divLeft div:last-child {
+div.divLeft div.divDos {
   padding-top: 25px;
   padding-bottom: 10px;
 }
@@ -481,6 +487,39 @@ div.divFloatRight div ul li {
 div.divFloatRight div ul li a {
   color: #73de1a;
 }
+/* End Article descripcion section */
+
+/* Nosotros section */
+.divNostrs {
+  margin: auto;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.divNostrs div:first-child h2.titleDescription {
+  text-align: right;
+  margin-top: auto;
+  display: flex;
+  padding-bottom: 0;
+}
+.divNostrs div:last-child p {
+  padding-top: 0;
+  text-align: left;
+  width: 85%;
+  margin-left: auto;
+  border-left: 1px solid #e0e0e0;
+}
+div.divLeft .divNostrs div:last-child {
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  .divNostrs div:last-child p {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+/* End Nosotros section */
 
 /* Gallery section */
 .imgGallery {
@@ -597,3 +636,168 @@ div.capa h2 {
   border-radius: 5px;
 }
 /* End Events section */
+
+/* Preguntas section */
+.divCarat {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 0px;
+}
+.divCarat div {
+  display: flex;
+}
+.divCarat div .divIvento {
+  width: 95%;
+  margin-left: auto;
+  height: auto;
+  flex-direction: column;
+  position: relative;
+}
+
+div.divLeft div.grup1 div.divDos div.divCarat {
+  padding: 0;
+}
+.divCarat .divIvento h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #404040;
+  letter-spacing: 0.5px;
+}
+/* End Servicios section */
+
+div.caracte .divFloatRig {
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  display: none;
+  margin: auto;
+  box-shadow: 0px 1px 10px #7777772e;
+}
+
+div.divFloatRig div:first-child {
+  color: #404040;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+div.divFloatRig div ul {
+  list-style: none;
+}
+div.divFloatRig div ul li span {
+  margin-right: 8%;
+  width: 24px;
+  height: 24px;
+}
+
+div.divFloatRig div ul li {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  font-size: 15px;
+  min-height: 40px;
+  line-height: 20px;
+  color: #4d4d4d;
+  display: flex;
+  align-items: center;
+}
+/* @media only screen and (max-width: 1061px) {
+  .grup1 div.divCarat {
+    display: none;
+  }
+} */
+@media only screen and (max-width: 1061px) {
+  div.caracte .divFloatRig {
+    display: block;
+  }
+}
+
+/* sectio div imagen */
+.conteimgmf {
+  background-image: url(../img/home/divImg.png);
+  background-attachment: local;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px -1px 10px #00adff;
+  width: 100%;
+  height: 155px;
+  margin-top: 2%;
+  margin-bottom: 0rem;
+  overflow: hidden;
+}
+/* sectio contacto */
+.formulari {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(248, 249, 250);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 50px 10px rgb(0 120 247 / 20%);
+  border-radius: 10px;
+}
+div.formulari form {
+  margin: 7% auto;
+}
+div.formulari label {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+div.formulari input,
+select {
+  padding: 5%;
+  margin: auto;
+  margin-top: 6%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  min-width: 350px;
+  max-width: 350px;
+  box-shadow: 0px 0px 8px #7777773c;
+  border-radius: 5px;
+}
+
+div.formulari form textarea {
+  padding: 5%;
+  margin: auto;
+  margin-top: 6%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 200px;
+  max-height: 250px;
+  box-shadow: 0px 0px 8px #7777773c;
+  border-radius: 5px;
+}
+.grupBtn {
+  margin: auto;
+  margin-top: 8%;
+  align-items: center;
+  justify-content: center;
+}
+div.formulari form button {
+  margin: auto;
+  padding: 5% 15%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 8px #7777773c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+}
+div.formulari form .butRset {
+  background-color: #18ab29;
+}
+div.formulari form .butEnvi {
+  background-color: #0065ab;
+}
+div.formulari form .butRset:hover {
+  background-color: rgb(226, 6, 6);
+  cursor: pointer;
+}
+div.formulari form .butEnvi:hover {
+  background-color: rgb(43, 4, 218);
+  cursor: pointer;
+}
