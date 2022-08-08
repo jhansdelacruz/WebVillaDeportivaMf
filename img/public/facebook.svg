@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 742.17 742.17"><defs><style>.cls-1{fill:#fff;}.cls-2{fill-rule:evenodd;fill:url(#linear-gradient);}</style><linearGradient id="linear-gradient" x1="-59475.01" y1="79874.29" x2="-59475.01" y2="76286.83" gradientTransform="matrix(0.2, 0, 0, -0.2, 18995.64, 22697.17)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00b2ff"/><stop offset="1" stop-color="#006aff"/></linearGradient></defs><g id="Layer_1" data-name="Layer 1"><circle class="cls-1" cx="371.09" cy="371.09" r="371.09"/></g><g id="Layer_2" data-name="Layer 2"><path class="cls-2" d="M7199.5,6861.24c186.82,0,338.26,151.44,338.26,338.26s-151.44,338.26-338.26,338.26-338.26-151.44-338.26-338.26S7012.68,6861.24,7199.5,6861.24Z" transform="translate(-6828.41 -6828.41)"/></g><g id="Layer_3" data-name="Layer 3"><path class="cls-1" d="M7240.58,7462.11V7200.84h73.66l9.76-92h-83.42l.12-46c0-24,2.28-36.83,36.73-36.83h46v-92h-73.67c-88.5,0-119.64,44.6-119.64,119.63v55.21H7075v92h55.17v257.56a341.17,341.17,0,0,0,110.41,3.7Z" transform="translate(-6828.41 -6828.41)"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="178.996mm" height="178.996mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 17899.6 17899.6"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:white;fill-rule:nonzero}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="8939.96" y1="55.04" x2="8939.96" y2="18443.96">
+   <stop offset="0" style="stop-opacity:1; stop-color:#00B2FF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#006AFF"/>
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="facebook-2020-2-1.svg">
+   <path class="fil0" d="M8941.87 215.37c4828.26,0 8742.35,3914.09 8742.35,8742.35 0,4828.26 -3914.09,8742.34 -8742.35,8742.34 -4828.26,0 -8742.35,-3914.08 -8742.35,-8742.34 0,-4828.26 3914.09,-8742.35 8742.35,-8742.35z"/>
+   <path class="fil1" d="M10077.8 17626.68l0 -6752.74 1903.72 0 252.34 -2376.65 -2156.06 0 3.2 -1189.62c0,-619.88 58.88,-951.88 949.26,-951.88l1190.25 0.01 0 -2377.05 -1904.15 0c-2287.22,0 -3092.14,1152.87 -3092.14,3091.93l0 1426.8 -1425.79 0 0 2376.86 1425.79 0 0 6656.6c555.45,110.67 1129.69,169.13 1717.65,169.13 0.36,-0.02 0.36,-0.02 0.36,-0.02 379.14,0 759.35,-24.77 1135.26,-73.24l0.31 -0.13z"/>
+  </g>
+ </g>
+</svg>
