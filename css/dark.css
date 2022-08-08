@@ -1,0 +1,52 @@
+:root {
+  --color-logo-prim: #8bff1b;
+  --color-logo-secun: #00baff;
+  --background-color: #1f2324;
+  --background-color-secun: #272c2e;
+  --background-color-header: #24292a;
+  --background-color-contacto: #292e2f;
+  --background-color-marquue: #2f3235;
+  --background-color-intmarquue: #5a6265;
+  --background-focus: #3b3b3b;
+  --color-intmarquue: #ffffff;
+  --color-title: #ffffff;
+  --color-paragraph: #ffffff;
+  --color-paragraph-secun: #ffffff;
+  --colo-text-secun: #fff6e4;
+  --colo-text-header: #ffffff;
+  --border-color-gallery: #1fff3a;
+  --border-color-map: #00baff;
+  --background-map: #0079d1;
+  --color-text-shadow: #357b2a;
+  --color-contac-shadow: rgba(0, 145, 255, 0.2);
+  --background-btnreset: #18d12e;
+  --background-btnreset-after: #ff0101;
+  --background-btnsubmit: #0072c6;
+  --background-btnsubmit-after: #2f00ff;
+  --gradient-footerbr: linear-gradient(
+    to top,
+    #0099ff,
+    #4ca9ff,
+    #0066d0,
+    #0057b0,
+    #444a4d,
+    #3d4447,
+    #393d3f,
+    #313539,
+    #2f3435,
+    #2e3134,
+    #2c2f32,
+    #292e2f
+  );
+
+  --gradient-modo: radial-gradient(
+    circle,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  --color-modo: #ffffff;
+  --color-data-after: #272a2a;
+}

@@ -10,10 +10,11 @@
   border: 0;
 }
 .modefull {
-  background-image: url(../img/home/mfpe-maps.png);
+  /* background-image: url(../img/home/mfpe-maps.png); */
   background-attachment: local;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: var(--background-color);
   background-size: cover;
   width: 100%;
   margin-bottom: 0rem;
@@ -69,12 +70,13 @@
   position: relative;
   border-radius: 50px;
   background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: var(--background-color-intmarquue) 20px 20px 60px,
+    var(--background-color) -20px -20px 60px;
 }
 @media only screen and (min-width: 48em) {
   .contet {
     display: flex;
-    background: #f8f9fa url(../img/home/barA.png);
+    background: var(--background-color-header) url(../img/home/barA.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 11px;
@@ -128,7 +130,7 @@
 }
 .host-content-wrap {
   padding: 3.125rem;
-  background-color: #f8f9fa;
+  background-color: var(--background-color-header);
   text-align: center;
 }
 @media only screen and (min-width: 48em) {
@@ -143,7 +145,7 @@
   align-items: center;
 }
 marquee {
-  background-color: #eeeeee;
+  background-color: var(--background-color-marquue);
   border: 1px;
   border-radius: 28px;
 }
@@ -155,9 +157,9 @@ marquee {
   margin-top: 5px;
 }
 .center-monsefu {
-  background-color: #bebebe;
+  background-color: var(--background-color-intmarquue);
   border-radius: 18px;
-  box-shadow: 0px 2px 10px #bebebe;
+  box-shadow: var(--background-color-intmarquue) 0px 2px 10px;
 }
 .center-monsefu a {
   color: #ffffff;
@@ -172,11 +174,12 @@ marquee {
   display: block;
 }
 .center-monsefu:hover * {
-  background-color: #f8f9fa;
-  color: #00447a;
+  background-color: var(--background-color-header);
+  color: var(--color-intmarquue);
   border-radius: 18px;
 }
 .name-title {
+  color: var(--color-paragraph);
   display: block;
   font-family: "Exo 2", sans-serif;
   font-size: 1.125em;
@@ -196,7 +199,7 @@ marquee {
 .host-adress {
   font-weight: 400;
   font-size: 1.4rem;
-  color: #999999;
+  color: var(--colo-text-secun);
   position: relative;
   padding-left: 2rem;
   margin-top: 1.5rem;
@@ -223,7 +226,7 @@ marquee {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #999999;
+  color: var(--colo-text-secun);
   position: relative;
   padding-left: 2rem;
   margin-top: 1.5rem;
@@ -242,7 +245,7 @@ marquee {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
-  color: #999999;
+  color: var(--colo-text-secun);
   position: relative;
   padding-left: 2rem;
   margin-top: 1.5rem;
@@ -290,7 +293,7 @@ marquee {
   content: "🖼️";
   font-size: 1.5625em;
   margin-right: 13px;
-  text-shadow: 0px 3px 0px #2f6627;
+  text-shadow: 0px 3px 0px var(--color-text-shadow);
   vertical-align: sub;
 }
 
@@ -303,16 +306,16 @@ marquee {
   letter-spacing: -0.025em;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 0px 1px 0px #2f6627;
+  text-shadow: 0px 1px 0px var(--color-text-shadow);
   justify-content: center;
   align-items: center;
   max-width: 280px;
 }
 .host-tickets a.link-tickets {
   background-color: none;
-  color: #73de1a;
+  color: var(--color-logo-prim);
   border-radius: 28px;
-  border: 1px solid #18ab29;
+  border: 1px solid var(--border-color-gallery);
   padding: 6% 8%;
   display: flex;
   cursor: pointer;
@@ -321,7 +324,7 @@ marquee {
   align-items: center;
 }
 .host-tickets a.link-tickets:hover {
-  background-color: #73de1a;
+  background-color: var(--color-logo-prim);
   color: #ffffff;
 }
 .host-tickets a.link-tickets:active {
@@ -350,7 +353,7 @@ marquee {
   font-size: 1.5625em;
   margin-right: 13px;
   vertical-align: sub;
-  text-shadow: 0px 4px 0px #2f6627;
+  text-shadow: 0px 4px 0px var(--color-text-shadow);
 }
 .host-map a {
   color: #ffffff;
@@ -361,7 +364,7 @@ marquee {
   letter-spacing: -0.025em;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 0px 1px 0px #2f6627;
+  text-shadow: 0px 1px 0px var(--color-text-shadow);
   justify-content: center;
   align-items: center;
   max-width: 280px;
@@ -369,17 +372,17 @@ marquee {
 .host-map a.link-en-mapa {
   line-height: 1.125em;
   background-color: none;
-  color: #0065ab;
+  color: var(--border-color-map);
   border-radius: 28px;
   padding: 6% 8%;
-  border: 1px solid #00447a;
+  border: 1px solid var(--border-color-map);
   display: flex;
   cursor: pointer;
   align-items: center;
   transition: 0.1s;
 }
 .host-map a.link-en-mapa:hover {
-  background-color: #0065ab;
+  background-color: var(--background-map);
   color: #ffffff;
 }
 .host-map a.link-en-mapa:active {
@@ -391,12 +394,13 @@ marquee {
 /* Article Descripcion section */
 .sctGlob {
   width: 100%;
-  background: #ffffff;
-  box-shadow: 0px -2px 15px rgb(190 190 190);
+  background: var(--background-color);
+  box-shadow: var(--background-color-intmarquue) 0px -2px 15px;
 }
 .artPrim {
   width: 100%;
-  background: #ffffff;
+  background: var(--background-color);
+  color: var(--color-title);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -425,7 +429,7 @@ div.divLeft {
 div.divFloatRight {
   padding: 20px;
   float: right;
-  background-color: #f6f6f6;
+  background-color: var(--background-color-secun);
   border-radius: 5px;
   box-shadow: 0px 1px 10px #7777772e;
 }
@@ -443,7 +447,7 @@ div.divLeft div.divDos {
 }
 
 h2.titleDescription {
-  color: #404040;
+  color: var(--color-title);
   line-height: 22px;
   font-size: 20px;
   font-weight: 600;
@@ -455,11 +459,11 @@ section.sctGlob p {
   font-size: 15px;
   line-height: 24px;
   text-align: justify;
-  color: #222;
+  color: var(--color-paragraph);
   margin-bottom: 18px;
 }
 div.divFloatRight div:first-child {
-  color: #404040;
+  color: var(--color-title);
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 18px;
@@ -480,12 +484,12 @@ div.divFloatRight div ul li {
   font-size: 15px;
   min-height: 40px;
   line-height: 20px;
-  color: #4d4d4d;
+  color: var(--color-paragraph-secun);
   display: flex;
   align-items: center;
 }
 div.divFloatRight div ul li a {
-  color: #73de1a;
+  color: var(--color-logo-prim);
 }
 /* End Article descripcion section */
 
@@ -542,20 +546,32 @@ div.divLeft .divNostrs div:last-child {
 .full-Img {
   width: 100%;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
   left: 0;
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 99;
+  z-index: +1;
 }
-.full-Img img {
+.full-Img div.imagenful {
   width: 90%;
   max-width: 640px;
+  cursor: zoom-in;
+  position: fixed;
 }
-.full-Img span {
+.full-Img img {
+  width: 100%;
+}
+div.imagenful span.zoon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.full-Img span.close {
   position: absolute;
   top: 5%;
   right: 5%;
@@ -563,6 +579,17 @@ div.divLeft .divNostrs div:last-child {
   color: #fff;
   cursor: pointer;
 }
+
+.full-Img span.fondoImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: -1;
+}
+
 /* End Gallery section */
 
 /* Events section */
@@ -637,7 +664,7 @@ div.capa h2 {
 }
 /* End Events section */
 
-/* Preguntas section */
+/* Servicios section */
 .divCarat {
   margin: auto;
   display: grid;
@@ -661,14 +688,16 @@ div.divLeft div.grup1 div.divDos div.divCarat {
 .divCarat .divIvento h3 {
   font-size: 18px;
   font-weight: 600;
-  color: #404040;
+  color: var(--color-title);
   letter-spacing: 0.5px;
 }
-/* End Servicios section */
+/* End servicios section */
+
+/* Preguntas section */
 
 div.caracte .divFloatRig {
   padding: 20px;
-  background-color: #f6f6f6;
+  background-color: var(--background-color-secun);
   border-radius: 5px;
   display: none;
   margin: auto;
@@ -676,7 +705,7 @@ div.caracte .divFloatRig {
 }
 
 div.divFloatRig div:first-child {
-  color: #404040;
+  color: var(--color-title);
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 18px;
@@ -697,7 +726,7 @@ div.divFloatRig div ul li {
   font-size: 15px;
   min-height: 40px;
   line-height: 20px;
-  color: #4d4d4d;
+  color: var(--color-paragraph-secun);
   display: flex;
   align-items: center;
 }
@@ -706,13 +735,18 @@ div.divFloatRig div ul li {
     display: none;
   }
 } */
+.color-header {
+  background-color: var(--background-color-header);
+}
 @media only screen and (max-width: 1061px) {
   div.caracte .divFloatRig {
     display: block;
   }
 }
 
-/* sectio div imagen */
+/* End preguntas section */
+
+/* barImagen section */
 .conteimgmf {
   background-image: url(../img/home/divImg.png);
   background-attachment: local;
@@ -726,15 +760,17 @@ div.divFloatRig div ul li {
   margin-bottom: 0rem;
   overflow: hidden;
 }
-/* sectio contacto */
+/* End barImagen section */
+
+/* contacto section */
 .formulari {
   width: 100%;
   margin: auto;
-  background-color: rgb(248, 249, 250);
+  background-color: var(--background-color-header);
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  box-shadow: 10px 10px 50px 10px rgb(0 120 247 / 20%);
+  box-shadow: 10px 10px 50px 10px var(--color-contac-shadow);
   border-radius: 10px;
 }
 div.formulari form {
@@ -755,7 +791,14 @@ select {
   min-width: 350px;
   max-width: 350px;
   box-shadow: 0px 0px 8px #7777773c;
+  background-color: var(--background-focus);
+  color: var(--color-title);
   border-radius: 5px;
+}
+div.formulari input,
+select,
+textarea:focus {
+  outline-color: var(--background-focus);
 }
 
 div.formulari form textarea {
@@ -770,12 +813,16 @@ div.formulari form textarea {
   max-height: 250px;
   box-shadow: 0px 0px 8px #7777773c;
   border-radius: 5px;
+  background-color: var(--background-focus);
+  color: var(--color-title);
 }
 .grupBtn {
-  margin: auto;
   margin-top: 8%;
   align-items: center;
   justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.formulari form button {
   margin: auto;
@@ -788,16 +835,147 @@ div.formulari form button {
   font-weight: 500;
 }
 div.formulari form .butRset {
-  background-color: #18ab29;
+  background-color: var(--background-btnreset);
 }
 div.formulari form .butEnvi {
-  background-color: #0065ab;
+  background-color: var(--background-btnsubmit);
 }
 div.formulari form .butRset:hover {
-  background-color: rgb(226, 6, 6);
+  background-color: var(--background-btnreset-after);
   cursor: pointer;
 }
 div.formulari form .butEnvi:hover {
-  background-color: rgb(43, 4, 218);
+  background-color: var(--background-btnsubmit-after);
   cursor: pointer;
 }
+.color-contacto {
+  background-color: var(--background-color-contacto);
+}
+/* End contacto section */
+.footerbr {
+  background-image: var(--gradient-footerbr);
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.footerbr img {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/* footer section */
+.pie-pagina {
+  width: 100%;
+  background-color: #0099ff;
+  margin-top: 0;
+  padding-top: 0;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 30px 0px 100px 0px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+  width: 90%;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: var(--background-color);
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: var(--background-color);
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+}
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0099ff;
+  text-align: center;
+  transition: all 300ms ease;
+  transition: 0.5s;
+}
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: aqua;
+  transform: scale(1.4);
+}
+.pie-pagina .grupo-2 {
+  background-color: var(--color-logo-prim);
+  padding: 15px 10px;
+  text-align: center;
+  color: var(--background-color);
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+.pie-pagina .grupo-2 small {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+/* End footer section */
+
+/* floatWhatsapp section */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 100%;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgb(12, 12, 12);
+  z-index: 98;
+}
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: var(--background-color-header);
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+img.whaspp {
+  fill: #fffbfc;
+  width: 45%;
+}
+.whaspp:hover {
+  fill: #25d366;
+  transition: 0.8s;
+  transform: scale(1.2);
+}
+/* End floatWhatsapp section */

@@ -17,11 +17,11 @@ hamburger.addEventListener("click", () => {
 document.addEventListener("scroll", () => {
   var scroll_position = window.scrollY;
   if (scroll_position > 50) {
-    header.style.backgroundColor = "#F8F9FA";
-    header.style.boxShadow = "0px 8px 10px #bebebe";
+    header.style.backgroundColor = "var(--background-color-header)";
+    header.style.boxShadow = "var(--background-color-intmarquue) 0px 8px 10px";
   } else {
-    header.style.backgroundColor = "#FFFFFF";
-    header.style.boxShadow = "0px 1px 10px #bebebe";
+    header.style.backgroundColor = "var(--background-color)";
+    header.style.boxShadow = "var(--background-color-intmarquue) 0px 1px 10px";
   }
 });
 

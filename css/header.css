@@ -4,12 +4,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 1px 10px #bebebe;
+  box-shadow: var(--background-color-intmarquue) 0px 1px 10px;
 }
 
 .brand a {
   text-align: center;
-  color: white;
+  color: var(--color-title);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,13 +25,13 @@
 .villa_deportiva {
   font-family: Oswald, sans-serif;
   font-weight: 600;
-  color: #73de1a;
+  color: var(--color-logo-prim);
 }
 .monsefu {
   font-family: rndhndk, sans-serif;
   font-weight: bold;
   padding-left: 8px;
-  color: #00adff;
+  color: var(--color-logo-secun);
 }
 
 /* Header section */
@@ -45,7 +45,7 @@ header {
 }
 header .header {
   min-height: 8vh;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--background-color);
   transition: 0.3s ease background-color;
   backdrop-filter: blur(1px);
   padding: 1%;
@@ -63,7 +63,7 @@ header .nav-bar {
 header .nav-list ul {
   list-style: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: var(--background-color-header);
   width: 100vw;
   height: 100vh;
   left: 100%;
@@ -76,6 +76,7 @@ header .nav-list ul {
   overflow-x: hidden;
   transition: 0.5s ease left;
 }
+
 header .nav-list ul.active {
   left: 0%;
 }
@@ -84,33 +85,36 @@ header .nav-list ul a {
   font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  color: #00612e;
+  color: var(--colo-text-header);
   padding: 20px;
   display: block;
 }
+
 header .nav-list ul a::after {
   content: attr(data-after);
   position: absolute;
+  font-weight: 900;
+  font-size: 6rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  color: rgba(240, 248, 255, 0.021);
+  color: var(--color-data-after);
   letter-spacing: 50px;
   z-index: -1;
-  transition: 0.3s ease letter-spacing;
+  transition: 0.5s ease letter-spacing;
 }
 header .nav-list ul li:hover a::after {
   transform: translate(-50%, -50%) scale(1);
   letter-spacing: initial;
 }
 header .nav-list ul li:hover a {
-  color: #0065ab;
+  color: var(--color-logo-secun);
 }
 header .hamburger {
   height: 60px;
   width: 60px;
   display: inline-block;
-  border: 3px solid #252525;
+  border: 3px solid var(--color-logo-prim);
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -127,14 +131,14 @@ header .hamburger:after {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  border: 3px solid #252525;
+  border: 3px solid var(--color-logo-prim);
   animation: hamburger_puls 1s ease infinite;
 }
 header .hamburger .bar {
   height: 2px;
   width: 30px;
   position: relative;
-  background-color: #252525;
+  background-color: #007436;
   z-index: -1;
 }
 header .hamburger .bar::after,
@@ -144,7 +148,7 @@ header .hamburger .bar::before {
   height: 100%;
   width: 100%;
   left: 0;
-  background-color: #252525;
+  background-color: #007436;
   transition: 0.3s ease;
   transition-property: top, bottom;
 }
@@ -163,6 +167,7 @@ header .hamburger.active .bar::after {
 html body.active {
   overflow-y: hidden;
 }
+
 /* End Header section */
 
 /* Media Query For Desktop */
@@ -196,3 +201,17 @@ html body.active {
   }
 }
 /* End  Media Query For Desktop */
+.lidark {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.lidark a {
+  color: var(--colo-text-header);
+  padding: 0 !important;
+  margin: auto;
+  background-image: var(--gradient-modo);
+  border-radius: 50px;
+  color: var(--color-modo) !important;
+}
