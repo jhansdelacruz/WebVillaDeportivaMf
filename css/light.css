@@ -38,14 +38,6 @@
     #e8f2fb,
     #ecf4fb
   );
-  --gradient-modo: radial-gradient(
-    circle,
-    #0099ff,
-    #60b1ff,
-    #92c8fe,
-    #bfdefc,
-    #ecf4fb
-  );
-  --color-modo: #272c2e;
   --color-data-after: #fff4f4;
+  --background-modefull: url(../img/home/mfpe-maps.png);
 }

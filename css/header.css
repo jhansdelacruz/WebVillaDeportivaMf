@@ -208,10 +208,11 @@ html body.active {
   text-align: center;
 }
 .lidark a {
+  font-weight: 300 !important;
   color: var(--colo-text-header);
   padding: 0 !important;
   margin: auto;
-  background-image: var(--gradient-modo);
+  background-image: var(--background-color);
+  box-shadow: var(--background-color-intmarquue) 0px 2px 10px;
   border-radius: 50px;
-  color: var(--color-modo) !important;
 }
