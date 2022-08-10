@@ -509,7 +509,6 @@ div.divFloatRight div ul li a {
 }
 .divNostrs div:last-child p {
   padding-top: 0;
-  text-align: left;
   width: 85%;
   margin-left: auto;
   border-left: 1px solid #e0e0e0;
@@ -985,4 +984,12 @@ strong.valoresH3 {
 }
 .conteValores {
   margin-left: auto;
+}
+p.pAlien {
+  margin-left: auto;
+  padding-right: 0 !important;
+  padding-left: 3% !important;
+}
+.padding-Top-0 {
+  padding-top: 0 !important;
 }
