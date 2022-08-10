@@ -690,6 +690,9 @@ div.divLeft div.grup1 div.divDos div.divCarat {
   font-weight: 600;
   color: var(--color-title);
   letter-spacing: 0.5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 /* End servicios section */
 
@@ -979,3 +982,10 @@ img.whaspp {
   transform: scale(1.2);
 }
 /* End floatWhatsapp section */
+strong.valoresH3 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.conteValores {
+  margin-left: auto;
+}
