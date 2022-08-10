@@ -978,6 +978,10 @@ img.whaspp {
   transform: scale(1.2);
 }
 /* End floatWhatsapp section */
+
+.valore-parr-prim {
+  padding-left: 0 !important;
+}
 strong.valoresH3 {
   font-size: 1.7rem;
   font-weight: 500;
