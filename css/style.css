@@ -428,6 +428,7 @@ div.divLeft {
 }
 div.divFloatRight {
   padding: 20px;
+  margin-top: 4%;
   float: right;
   background-color: var(--background-color-secun);
   border-radius: 5px;
@@ -684,12 +685,21 @@ div.capa h2 {
 div.divLeft div.grup1 div.divDos div.divCarat {
   padding: 0;
 }
+.divCarat .divIvento span {
+  margin: 3%;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-title);
+  letter-spacing: 0.5px;
+}
+
 .divCarat .divIvento h3 {
   font-size: 18px;
   font-weight: 600;
   color: var(--color-title);
   letter-spacing: 0.5px;
 }
+
 /* End servicios section */
 
 /* Preguntas section */
