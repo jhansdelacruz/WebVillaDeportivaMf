@@ -698,6 +698,10 @@ div.divLeft div.grup1 div.divDos div.divCarat {
   color: var(--color-title);
   letter-spacing: 0.5px;
 }
+.detailOpen,
+details > p {
+  background-color: var(--background-color-contacto);
+}
 
 /* End servicios section */
 

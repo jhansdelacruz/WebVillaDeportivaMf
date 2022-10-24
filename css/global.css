@@ -70,8 +70,10 @@ img {
   height: 350px;
 }
 .Pdg2xCien {
-  width: 90%;
-  margin-left: 3%;
+  padding-top: 1.8% !important;
+  padding-bottom: 3.5% !important;
+  padding-left: 5% !important;
+  margin: 0 !important;
 }
 details {
   border: 1px solid #e0e0e0;
@@ -80,7 +82,13 @@ details:active {
   background-color: var(--background-color-contacto);
 }
 summary {
-  padding: 2% 2%;
   list-style: none;
   cursor: pointer;
+}
+summary > span {
+  padding: 2% 2%;
+  display: block;
+}
+.brServices {
+  margin: 25px 0;
 }
